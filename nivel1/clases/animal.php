@@ -5,7 +5,7 @@
  * queremos un método makeSound() que muestre un mensaje diferente si se trata de un perro (por ejemplo, “Bup, bup!”) 
  * o un gato (por ejemplo “Mi!”).
  */
-class Animal {
+abstract class Animal {
     
     protected $name;
 
@@ -14,9 +14,9 @@ class Animal {
         $this->name = $name; 
     }
 
-    //metodo generico para hacer un sonido será sobrescrito por las clases hijas
-    public function makeSound() {
-        echo "Este animal no tiene un sonido definido.<br>";
-    }
+    //metodo abstracto para ser implementado luego
+     abstract public function makeSound();
+        //echo "Este animal no tiene un sonido definido.<br>";
+    
 }
 ?>
