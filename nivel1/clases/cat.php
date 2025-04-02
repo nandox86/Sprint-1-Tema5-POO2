@@ -6,7 +6,7 @@ require_once 'Animal.php';
 class Cat extends Animal {
    
     public function makeSound() {
-        echo $this->name . " dice: Mi!<br>";
+        echo $this->name . " dice: Miiaaaauu!<br>";
     }
 }
 ?>

@@ -5,9 +5,9 @@
  * queremos un método makeSound() que muestre un mensaje diferente si se trata de un perro (por ejemplo, “Bup, bup!”) 
  * o un gato (por ejemplo “Mi!”).
  */
-abstract class Animal {
+ abstract class Animal {
     
-    protected $name;
+    protected  string $name;
 
     // constructor para inicializar el nombre del animal
     public function __construct($name) {
